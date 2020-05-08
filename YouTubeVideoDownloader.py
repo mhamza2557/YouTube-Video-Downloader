@@ -1,6 +1,12 @@
+import os
 import pytube
 from pytube import YouTube
 from pytube.cli import on_progress
+
+def filePath():
+    home = os.path.expanduser('~')
+    downloadPath =  os.path.join(home, 'Desktop')
+    return downloadPath
 
 url = input('Enter YouTube URL Here: ')
 yt1 = YouTube(url, on_progress_callback=on_progress)
@@ -15,4 +21,5 @@ for i in yt1.streams.filter(adaptive=True):
 inputResolution = input('\nEnter number # for resolution: ')
 print(yt1.streams.filter(adaptive=True, res=getResolution[int(inputResolution)].resolution).first())
 video = yt1.streams.filter(adaptive=True, res=getResolution[int(inputResolution)].resolution).first()
-video.download()
+video.download(filePath())
+
