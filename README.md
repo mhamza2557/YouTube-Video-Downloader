@@ -4,5 +4,5 @@
 
 Only Progressive Video Dowload
 - [x] 720p
-- [] 480p
+- [ ] 480p
 - [x] 360p
