@@ -4,11 +4,11 @@
 
 Only Progressive Video Dowload
 
-Supported
+###### Supported
 - [x] 720p
 - [x] 360p
 
-Not Supported
+###### Not Supported
 - [ ] 4320p **8K**
 - [ ] 2880p **5K**
 - [ ] 2160p **4K**
