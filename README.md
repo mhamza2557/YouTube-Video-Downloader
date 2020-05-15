@@ -3,11 +3,11 @@
 ### Dowload YouTube Video in Desktop
 
 Only Progressive Video Dowload
-- [ ] 4320p 8K
-- [ ] 2880p 5K
-- [ ] 2160p 4K
-- [ ] 1440p HD
-- [ ] 1080p HD
+- [ ] 4320p **8K**
+- [ ] 2880p **5K**
+- [ ] 2160p **4K**
+- [ ] 1440p **HD**
+- [ ] 1080p **HD**
 - [x] 720p
 - [ ] 480p
 - [x] 360p
