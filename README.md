@@ -3,6 +3,7 @@
 ### Dowload YouTube Video in Desktop
 
 Only Progressive Video Dowload
+Supported
 - [x] 720p
 - [x] 360p
 
